@@ -1,4 +1,4 @@
-
+'''Using Context Managers to calculate execution time of a function'''
 from time import time, sleep
 from contextlib import contextmanager
 

@@ -13,7 +13,7 @@ print(next(counter))
 print(next(counter))
 
 for num in counter:
-	infinite loop
+#	infinite loop
 	print(num)
 
 data = [100, 200, 300, 400]

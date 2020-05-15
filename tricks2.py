@@ -13,7 +13,7 @@ print(next(counter))
 print(next(counter))
 
 for num in counter:
-	infinite loop
+#	infinite loop
 	print(num)
 
 data = [100, 200, 300, 400]
@@ -39,7 +39,7 @@ print(next(counter))
 print(next(counter))
 print(next(counter))
 
-Simulating a switch using the cycle function 
+#Simulating a switch using the cycle function 
 
 counter = itertools.cycle(('on', 'off'))
 
@@ -63,7 +63,7 @@ print(next(counter))
 print(next(counter))
 print(next(counter))
 
-Squaring numbers using the repeat function
+#Squaring numbers using the repeat function
 
 squares = map(pow, range(10), itertools.repeat(2))
 
